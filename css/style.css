@@ -1,0 +1,123 @@
+/* Mengatur gaya dasar untuk elemen body */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #77b6ed;
+}
+
+/* Mengatur gaya untuk container utama */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Mengatur gaya untuk judul */
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Mengatur gaya untuk paragraf instruksi */
+p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Mengatur gaya untuk form */
+form {
+    margin-bottom: 20px;
+}
+
+/* Mengatur gaya untuk label */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Mengatur gaya untuk input, select, dan button */
+input, select, button {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Mengatur warna placeholder untuk input */
+input::placeholder {
+    color: #999;
+}
+
+/* Mengatur gaya untuk grup tombol */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Mengatur gaya untuk tombol */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    flex: 1;
+    margin: 0 5px;
+}
+
+/* Mengatur gaya untuk tombol saat hover */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Mengatur gaya untuk bagian hasil konversi */
+#result {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Mengatur gaya untuk bagian penjelasan hasil konversi */
+#explanationFormSection {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Mengatur gaya untuk form penjelasan hasil konversi */
+#explanationFormSection form {
+    margin-bottom: 0;
+}
+
+/* Mengatur gaya untuk label dalam form penjelasan hasil konversi */
+#explanationFormSection label {
+    margin-bottom: 4px;
+}
+
+/* Mengatur gaya untuk bagian penjelasan cara konversi suhu */
+#conversionInfo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#conversionInfo h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#conversionInfo p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
